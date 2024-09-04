@@ -95,44 +95,14 @@
           <p class="menu-card-price">IDR 15K</p>
         </div>
         <div class="menu-card">
-          <img src="img/menu/1.jpg" alt="Espresso" class="menu-card-img" />
-          <h3 class="menu-card-title">Espresso</h3>
-          <p class="menu-card-price">IDR 15K</p>
+          <img src="img/menu/2.jpg" alt="Americano" class="menu-card-img" />
+          <h3 class="menu-card-title">Americano</h3>
+          <p class="menu-card-price">IDR 20K</p>
         </div>
         <div class="menu-card">
-          <img src="img/menu/1.jpg" alt="Espresso" class="menu-card-img" />
-          <h3 class="menu-card-title">Espresso</h3>
-          <p class="menu-card-price">IDR 15K</p>
-        </div>
-        <div class="menu-card">
-          <img src="img/menu/1.jpg" alt="Espresso" class="menu-card-img" />
-          <h3 class="menu-card-title">Espresso</h3>
-          <p class="menu-card-price">IDR 15K</p>
-        </div>
-        <div class="menu-card">
-          <img src="img/menu/1.jpg" alt="Espresso" class="menu-card-img" />
-          <h3 class="menu-card-title">Espresso</h3>
-          <p class="menu-card-price">IDR 15K</p>
-        </div>
-        <div class="menu-card">
-          <img src="img/menu/1.jpg" alt="Espresso" class="menu-card-img" />
-          <h3 class="menu-card-title">Espresso</h3>
-          <p class="menu-card-price">IDR 15K</p>
-        </div>
-        <div class="menu-card">
-          <img src="img/menu/1.jpg" alt="Espresso" class="menu-card-img" />
-          <h3 class="menu-card-title">Espresso</h3>
-          <p class="menu-card-price">IDR 15K</p>
-        </div>
-        <div class="menu-card">
-          <img src="img/menu/1.jpg" alt="Espresso" class="menu-card-img" />
-          <h3 class="menu-card-title">Espresso</h3>
-          <p class="menu-card-price">IDR 15K</p>
-        </div>
-        <div class="menu-card">
-          <img src="img/menu/1.jpg" alt="Espresso" class="menu-card-img" />
-          <h3 class="menu-card-title">Espresso</h3>
-          <p class="menu-card-price">IDR 15K</p>
+          <img src="img/menu/3.jpeg" alt="Latte" class="menu-card-img" />
+          <h3 class="menu-card-title">Latte</h3>
+          <p class="menu-card-price">IDR 25K</p>
         </div>
       </div>
     </section>
@@ -196,6 +166,33 @@
     </footer>
 
     <!-- footer end -->
+
+    <!-- Modal Form Order -->
+    <div id="orderModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Pesan Kopi</h2>
+        <form id="orderForm">
+          <label for="kopi">Pilih Kopi:</label>
+          <select id="kopi" name="kopi">
+            <option value="Espresso">Espresso</option>
+            <option value="Americano">Americano</option>
+            <option value="Latte">Latte</option>
+          </select>
+
+          <label for="quantity">Jumlah:</label>
+          <input
+            type="number"
+            id="quantity"
+            name="quantity"
+            value="1"
+            min="1"
+          />
+
+          <button type="submit" class="btn">Pesan Sekarang</button>
+        </form>
+      </div>
+    </div>
 
     <!-- Feather Icons -->
     <script>
